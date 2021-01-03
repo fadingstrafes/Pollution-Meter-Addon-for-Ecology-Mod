@@ -1,0 +1,16 @@
+[
+{
+  "modid": "pm",
+  "name": "Pollution Meter",
+  "description": "Mod addon for Ecology Mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["FadingStrafes"],
+  "credits": "FadingStrafes",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": ['Ecology Mod']
+}
+]

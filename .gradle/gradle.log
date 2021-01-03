@@ -1,0 +1,426 @@
+:compileApiJava NO-SOURCE
+:processApiResources NO-SOURCE
+:apiClasses UP-TO-DATE
+:sourceMainJava UP-TO-DATE
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:jar UP-TO-DATE
+:getVersionJson
+:extractUserDev UP-TO-DATE
+:extractNatives UP-TO-DATE
+:getAssetsIndex
+:getAssets
+:makeStart
+[ant:javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+[ant:javac] 1 warning
+:runClient
+[11:19:01] [main/INFO] [GradleStart]: Extra: []
+[11:19:01] [main/INFO] [GradleStart]: Found and added coremod: ecomod.asm.EcomodLoadingPlugin
+[11:19:01] [main/INFO] [GradleStart]: Found and added coremod: ic2.core.coremod.IC2core
+[11:19:01] [main/INFO] [GradleStart]: Found and added coremod: codechicken.nei.asm.NEICorePlugin
+[11:19:01] [main/INFO] [GradleStart]: Found and added coremod: codechicken.core.launch.CodeChickenCorePlugin
+[11:19:01] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/sebyt/.gradle/caches/minecraft/assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[11:19:01] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[11:19:01] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[11:19:01] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[11:19:01] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[11:19:01] [main/INFO] [FML]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[11:19:01] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_275, running on Windows 10:amd64:10.0, installed at C:\Users\sebyt\.jdks\corretto-1.8.0_275\jre
+[11:19:01] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[11:19:01] [main/INFO] [FML]: Found a command line coremod : codechicken.nei.asm.NEICorePlugin
+[11:19:01] [main/WARN] [FML]: The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[11:19:01] [main/INFO] [FML]: Found a command line coremod : ic2.core.coremod.IC2core
+[11:19:01] [main/WARN] [FML]: The coremod ic2.core.coremod.IC2core does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[11:19:01] [main/INFO] [FML]: Found a command line coremod : codechicken.core.launch.CodeChickenCorePlugin
+[11:19:01] [main/WARN] [FML]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[11:19:01] [main/INFO] [FML]: Found a command line coremod : ecomod.asm.EcomodLoadingPlugin
+[11:19:01] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[11:19:01] [main/INFO] [GradleStart]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
+[11:19:01] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[11:19:01] [main/INFO] [GradleStart]: Injecting location in coremod codechicken.core.asm.MCPDeobfuscationTransformer.LoadPlugin
+[11:19:01] [main/INFO] [GradleStart]: Injecting location in coremod codechicken.nei.asm.NEICorePlugin
+[11:19:01] [main/INFO] [GradleStart]: Injecting location in coremod ic2.core.coremod.IC2core
+[11:19:01] [main/INFO] [GradleStart]: Injecting location in coremod codechicken.core.launch.CodeChickenCorePlugin
+[11:19:01] [main/INFO] [GradleStart]: Injecting location in coremod ecomod.asm.EcomodLoadingPlugin
+[11:19:01] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:19:01] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[11:19:01] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[11:19:01] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:19:01] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:19:01] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:19:01] [main/ERROR] [FML]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[11:19:02] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[11:19:02] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:19:02] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:19:02] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:19:02] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:19:02] [main/INFO] [IC2-core]: Loaded library EJML-core-0.26.jar.
+[11:19:02] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:19:02] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:19:02] [main/INFO] [EcomodASM]: Initializing EcomodClassTransformer.
+[11:19:02] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[11:19:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[11:19:03] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
+[11:19:03] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[11:19:03] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[11:19:03] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[11:19:04] [main/INFO]: Setting user: Player421
+[11:19:04] [main/INFO] [EcomodASM]: Transforming net.minecraft.entity.item.EntityItem
+[11:19:04] [main/INFO] [EcomodASM]: Initial size: 12918 bytes
+[11:19:04] [main/INFO] [EcomodASM]: Transformed net.minecraft.entity.item.EntityItem
+[11:19:04] [main/INFO] [EcomodASM]: Final size: 13070 bytes
+[11:19:04] [main/INFO] [EcomodASM]: Transforming net.minecraft.item.Item
+[11:19:04] [main/INFO] [EcomodASM]: Initial size: 48117 bytes
+[11:19:04] [main/INFO] [EcomodASM]: Transformed net.minecraft.item.Item
+[11:19:04] [main/INFO] [EcomodASM]: Final size: 48233 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transforming IGrowable: net.minecraft.block.BlockDoublePlant
+[11:19:05] [main/INFO] [EcomodASM]: Initial size: 12242 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transformed net.minecraft.block.BlockDoublePlant
+[11:19:05] [main/INFO] [EcomodASM]: Final size: 12342 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transforming IGrowable: net.minecraft.block.BlockGrass
+[11:19:05] [main/INFO] [EcomodASM]: Initial size: 6959 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transformed net.minecraft.block.BlockGrass
+[11:19:05] [main/INFO] [EcomodASM]: Final size: 7059 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transforming net.minecraft.block.BlockGrass
+[11:19:05] [main/INFO] [EcomodASM]: Initial size: 7059 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transformed net.minecraft.block.BlockGrass
+[11:19:05] [main/INFO] [EcomodASM]: Final size: 7134 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transforming IGrowable: net.minecraft.block.BlockTallGrass
+[11:19:05] [main/INFO] [EcomodASM]: Initial size: 7238 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transformed net.minecraft.block.BlockTallGrass
+[11:19:05] [main/INFO] [EcomodASM]: Final size: 7339 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transforming IGrowable: net.minecraft.block.BlockSapling
+[11:19:05] [main/INFO] [EcomodASM]: Initial size: 7320 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transformed net.minecraft.block.BlockSapling
+[11:19:05] [main/INFO] [EcomodASM]: Final size: 7420 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transforming net.minecraft.block.BlockFire
+[11:19:05] [main/INFO] [EcomodASM]: Initial size: 15927 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transformed net.minecraft.block.BlockFire
+[11:19:05] [main/INFO] [EcomodASM]: Final size: 15995 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transforming net.minecraft.block.BlockLeaves
+[11:19:05] [main/INFO] [EcomodASM]: Initial size: 10652 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transformed net.minecraft.block.BlockLeaves
+[11:19:05] [main/INFO] [EcomodASM]: Final size: 10722 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transforming IGrowable: net.minecraft.block.BlockMushroom
+[11:19:05] [main/INFO] [EcomodASM]: Initial size: 4495 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transformed net.minecraft.block.BlockMushroom
+[11:19:05] [main/INFO] [EcomodASM]: Final size: 4595 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transforming IGrowable: net.minecraft.block.BlockCrops
+[11:19:05] [main/INFO] [EcomodASM]: Initial size: 7885 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transformed net.minecraft.block.BlockCrops
+[11:19:05] [main/INFO] [EcomodASM]: Final size: 7985 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transforming net.minecraft.block.BlockFarmland
+[11:19:05] [main/INFO] [EcomodASM]: Initial size: 6193 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transformed net.minecraft.block.BlockFarmland
+[11:19:05] [main/INFO] [EcomodASM]: Final size: 6301 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transforming net.minecraft.tileentity.TileEntityFurnace
+[11:19:05] [main/INFO] [EcomodASM]: Initial size: 9715 bytes
+[11:19:05] [main/INFO] [EcomodASM]: FOUND: ASTORE 1
+[11:19:05] [main/INFO] [EcomodASM]: Transformed net.minecraft.tileentity.TileEntityFurnace
+[11:19:05] [main/INFO] [EcomodASM]: Final size: 9868 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transforming IGrowable: net.minecraft.block.BlockStem
+[11:19:05] [main/INFO] [EcomodASM]: Initial size: 9335 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transformed net.minecraft.block.BlockStem
+[11:19:05] [main/INFO] [EcomodASM]: Final size: 9435 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transforming net.minecraft.tileentity.TileEntityBrewingStand
+[11:19:05] [main/INFO] [EcomodASM]: Initial size: 8735 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transformed net.minecraft.tileentity.TileEntityBrewingStand
+[11:19:05] [main/INFO] [EcomodASM]: Final size: 8858 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transforming IGrowable: net.minecraft.block.BlockCocoa
+[11:19:05] [main/INFO] [EcomodASM]: Initial size: 9265 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transformed net.minecraft.block.BlockCocoa
+[11:19:05] [main/INFO] [EcomodASM]: Final size: 9365 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transforming net.minecraft.item.ItemFood
+[11:19:05] [main/INFO] [EcomodASM]: Initial size: 3988 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transformed net.minecraft.item.ItemFood
+[11:19:05] [main/INFO] [EcomodASM]: Final size: 4061 bytes
+[11:19:05] [main/INFO] [EcomodASM]: Transforming net.minecraft.entity.projectile.EntityFishHook
+[11:19:05] [main/INFO] [EcomodASM]: Initial size: 17151 bytes
+[11:19:05] [main/INFO] [EcomodASM]: FOUND: ASTORE 12
+[11:19:05] [main/INFO] [EcomodASM]: Transformed net.minecraft.entity.projectile.EntityFishHook
+[11:19:05] [main/INFO] [EcomodASM]: Final size: 17345 bytes
+[11:19:06] [Client thread/INFO]: LWJGL Version: 2.9.1
+[11:19:07] [Client thread/INFO] [STDOUT]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// This doesn't make any sense!
+
+Time: 1/3/21 11:19 AM
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_275, Amazon.com Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Amazon.com Inc.
+	Memory: 191003744 bytes (182 MB) / 406323200 bytes (387 MB) up to 1873805312 bytes (1787 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 460.89' Renderer: 'GeForce GTX 1050/PCIe/SSE2'
+[11:19:07] [Client thread/INFO] [MinecraftForge]: Attempting early MinecraftForge initialization
+[11:19:07] [Client thread/INFO] [FML]: MinecraftForge v10.13.4.1614 Initialized
+[11:19:07] [Client thread/INFO] [FML]: Replaced 183 ore recipies
+[11:19:07] [Client thread/INFO] [MinecraftForge]: Completed early MinecraftForge initialization
+[11:19:07] [Client thread/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
+[11:19:07] [Client thread/INFO] [FML]: Searching C:\Users\sebyt\IdeaProjects\Pollution-Meter-Addon-for-Ecology-Mod\eclipse\mods for mods
+[11:19:07] [Client thread/INFO] [FML]: Also searching C:\Users\sebyt\IdeaProjects\Pollution-Meter-Addon-for-Ecology-Mod\eclipse\mods\1.7.10 for mods
+[11:19:13] [Client thread/INFO] [FML]: Forge Mod Loader has identified 10 mods to load
+[11:19:13] [Client thread/INFO] [FML]: Found mod(s) [ImmersiveEngineering] containing declared API package cofh.api (owned by CoFHLib) without associated API reference
+[11:19:13] [Client thread/INFO] [FML]: Found mod(s) [ecomod] containing declared API package buildcraft.api.core (owned by BuildCraft|Core) without associated API reference
+[11:19:13] [Client thread/INFO] [FML]: Found mod(s) [ecomod] containing declared API package buildcraft.api.tiles (owned by BuildCraftAPI|core) without associated API reference
+[11:19:14] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, NotEnoughItems, CodeChickenCore, ecomod, ImmersiveEngineering, IC2, Waila, pm] at CLIENT
+[11:19:14] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, NotEnoughItems, CodeChickenCore, ecomod, ImmersiveEngineering, IC2, Waila, pm] at SERVER
+[11:19:15] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Ecology Mod, FMLFileResourcePack:Immersive Engineering, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:Waila, FMLFileResourcePack:Pollution Meter
+[11:19:15] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[11:19:15] [Client thread/INFO] [FML]: Found 341 ObjectHolder annotations
+[11:19:15] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[11:19:15] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[11:19:15] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[11:19:15] [Client thread/INFO] [Ecology Mod]: PreInitialization
+[11:19:15] [Client thread/INFO] [Ecology Mod]: Setting blocks
+[11:19:15] [Client thread/INFO] [Ecology Mod]: Registering block - ecomod:block_concentrated_pollution
+[11:19:16] [Client thread/INFO] [Ecology Mod]: Registering block - ecomod:filter
+[11:19:16] [Client thread/INFO] [Ecology Mod]: Registering block - ecomod:advanced_filter
+[11:19:16] [Client thread/INFO] [Ecology Mod]: Registering block - ecomod:analyzer
+[11:19:16] [Client thread/INFO] [Ecology Mod]: Registering block - ecomod:frame
+[11:19:16] [Client thread/INFO] [Ecology Mod]: Registering items
+[11:19:16] [Client thread/INFO] [EcomodASM]: Transforming net.minecraft.client.renderer.EntityRenderer
+[11:19:16] [Client thread/INFO] [EcomodASM]: Initial size: 46859 bytes
+[11:19:16] [Client thread/INFO] [EcomodASM]: FOUND: INVOKEVIRTUAL net/minecraft/client/renderer/texture/TextureManager(bqf) bindTexture(a) (Lnet/minecraft/util/ResourceLocation;)V!&!(Lbqx;)V  !!!!!
+[11:19:16] [Client thread/INFO] [EcomodASM]: Transformed net.minecraft.client.renderer.EntityRenderer
+[11:19:16] [Client thread/INFO] [EcomodASM]: Final size: 46924 bytes
+[11:19:16] [Client thread/INFO] [Ecology Mod]: Downloading config update json
+[11:19:16] [Client thread/INFO] [Ecology Mod]: Receiving configuration update json from https://raw.githubusercontent.com/Artem226/MinecraftEcologyMod/master/config/pollution_config.json
+[11:19:16] [Client thread/INFO] [Ecology Mod]: Connecting to: https://raw.githubusercontent.com/Artem226/MinecraftEcologyMod/master/config/pollution_config.json
+[11:19:16] [Client thread/INFO] [Ecology Mod]: Loading TEPollutionConfig
+[11:19:16] [Client thread/WARN] [Ecology Mod]: Downloading the latest version of TEPollutionConfig!
+[11:19:16] [Client thread/WARN] [Ecology Mod]: Downloading the TEPollutionConfig version 1.4
+[11:19:16] [Client thread/INFO] [Ecology Mod]: Loading TEPC
+[11:19:16] [Client thread/INFO] [Ecology Mod]: Trying to load TEPC from file
+[11:19:16] [Client thread/INFO] [Ecology Mod]: Getting TEPC from https://raw.githubusercontent.com/Artem226/MinecraftEcologyMod/master/config/tiles/TEPollutionConfig-1.4.json
+[11:19:16] [Client thread/INFO] [Ecology Mod]: Connecting to: https://raw.githubusercontent.com/Artem226/MinecraftEcologyMod/master/config/tiles/TEPollutionConfig-1.4.json
+[11:19:16] [Client thread/INFO] [Ecology Mod]: [TEPC]Loaded 268 entries
+[11:19:16] [Client thread/INFO] [Ecology Mod]: Saving TEPollutionConfig.json
+[11:19:16] [Client thread/INFO] [Ecology Mod]: Loading PollutionSources
+[11:19:16] [Client thread/WARN] [Ecology Mod]: Downloading the latest version of PollutionSources!
+[11:19:16] [Client thread/WARN] [Ecology Mod]: Downloading the PollutionSourcesConfig version 1.2
+[11:19:16] [Client thread/INFO] [Ecology Mod]: Loading PollutionSources
+[11:19:16] [Client thread/INFO] [Ecology Mod]: Trying to load PollutionSources from file
+[11:19:16] [Client thread/INFO] [Ecology Mod]: Loaded PollutionSources from file
+[11:19:16] [Client thread/INFO] [Ecology Mod]: Getting PollutionSources from https://raw.githubusercontent.com/Artem226/MinecraftEcologyMod/master/config/sources/PollutionSources-1.2.json
+[11:19:16] [Client thread/INFO] [Ecology Mod]: https://raw.githubusercontent.com/Artem226/MinecraftEcologyMod/master/config/sources/PollutionSources-1.2.json
+[11:19:16] [Client thread/INFO] [Ecology Mod]: Connecting to: https://raw.githubusercontent.com/Artem226/MinecraftEcologyMod/master/config/sources/PollutionSources-1.2.json
+[11:19:17] [Client thread/INFO] [Ecology Mod]: Loaded 12 pollution sources
+[11:19:17] [Client thread/INFO] [Ecology Mod]: Saving PollutionSources.json
+[11:19:17] [Client thread/INFO] [Ecology Mod]: Loading PollutionEffects
+[11:19:17] [Client thread/WARN] [Ecology Mod]: Downloading the latest version of PollutionEffectsConfig!
+[11:19:17] [Client thread/WARN] [Ecology Mod]: Downloading the PollutionSourcesConfig version 1.1
+[11:19:17] [Client thread/INFO] [Ecology Mod]: Loading PollutionEffects
+[11:19:17] [Client thread/INFO] [Ecology Mod]: Trying to load PollutionEffects from file
+[11:19:17] [Client thread/INFO] [Ecology Mod]: Getting PollutionEffects from https://raw.githubusercontent.com/Artem226/MinecraftEcologyMod/master/config/effects/PollutionEffects-1.1.json
+[11:19:17] [Client thread/INFO] [Ecology Mod]: Connecting to: https://raw.githubusercontent.com/Artem226/MinecraftEcologyMod/master/config/effects/PollutionEffects-1.1.json
+[11:19:17] [Client thread/INFO] [Ecology Mod]: Loaded 13 pollution effects
+[11:19:17] [Client thread/INFO] [Ecology Mod]: Saving PollutionEffects.json
+[11:19:18] [Client thread/INFO] [EcomodASM]: Transforming IGrowable: blusunrize.immersiveengineering.common.blocks.plant.BlockIECrop
+[11:19:18] [Client thread/INFO] [EcomodASM]: Initial size: 8455 bytes
+[11:19:18] [Client thread/INFO] [EcomodASM]: Transformed blusunrize.immersiveengineering.common.blocks.plant.BlockIECrop
+[11:19:18] [Client thread/INFO] [EcomodASM]: Final size: 8555 bytes
+[11:19:18] [Client thread/INFO] [ImmersiveEngineering]: Loading compat module: blusunrize.immersiveengineering.common.util.compat.waila.WailaHelper@6d78841e
+[11:19:18] [Client thread/INFO] [ImmersiveEngineering]: Loading compat module: blusunrize.immersiveengineering.common.util.compat.IC2Helper@55f9f89c
+[11:19:20] [Client thread/INFO] [FML]: Applying holder lookups
+[11:19:20] [Client thread/INFO] [FML]: Holder lookups applied
+[11:19:20] [Client thread/INFO] [FML]: Injecting itemstacks
+[11:19:20] [Client thread/INFO] [FML]: Itemstack injection complete
+[11:19:20] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[11:19:20] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[11:19:20] [Thread-8/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[11:19:20] [Thread-8/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[11:19:20] [Thread-8/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[11:19:20] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[11:19:20] [Sound Library Loader/INFO]: Sound engine started
+[11:19:21] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[11:19:21] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[11:19:21] [Client thread/ERROR] [CodeChickenCore]: Unable to do mod description scrolling due to lack of stencil buffer
+[11:19:21] [Client thread/ERROR] [CodeChickenCore]: Unable to do mod description scrolling due to lack of stencil buffer
+[11:19:21] [Client thread/INFO] [Ecology Mod]: Initialization
+[11:19:21] [Client thread/INFO] [Ecology Mod]: Wasteland ID : 117
+[11:19:21] [Client thread/INFO] [Ecology Mod]: Registering recipes
+[11:19:21] [Client thread/INFO] [Ecomod|Intermod]: Sending a registering message to Waila
+[11:19:21] [Client thread/INFO] [ImmersiveEngineering]: Attempting to extend PotionArray by 4
+[11:19:21] [Client thread/INFO]: Created: 16x16 textures/revolvers-atlas
+[11:19:22] [Client thread/INFO] [IC2.Recipe]: Successfully loaded 266 out of 266 recipes for shaped recipes
+[11:19:22] [Client thread/INFO] [IC2.Recipe]: Successfully loaded 76 out of 76 recipes for shapeless recipes
+[11:19:22] [Client thread/INFO] [IC2.Recipe]: Successfully loaded 5 out of 5 recipes for blast furnace recipes
+[11:19:22] [Client thread/INFO] [IC2.Recipe]: Successfully loaded 17 out of 17 recipes for block cutter recipes
+[11:19:22] [Client thread/INFO] [IC2.Recipe]: Successfully loaded 47 out of 47 recipes for compressor recipes
+[11:19:22] [Client thread/INFO] [IC2.Recipe]: Successfully loaded 12 out of 12 recipes for extractor recipes
+[11:19:22] [Client thread/INFO] [IC2.Recipe]: Successfully loaded 64 out of 64 recipes for macerator recipes
+[11:19:22] [Client thread/INFO] [IC2.Recipe]: Successfully loaded 4 out of 4 recipes for metal former cutting recipes
+[11:19:22] [Client thread/INFO] [IC2.Recipe]: Successfully loaded 10 out of 10 recipes for metal former extruding recipes
+[11:19:22] [Client thread/INFO] [IC2.Recipe]: Successfully loaded 14 out of 14 recipes for metal former rolling recipes
+[11:19:22] [Client thread/INFO] [IC2.Recipe]: Successfully loaded 8 out of 8 recipes for ore washing recipes
+[11:19:22] [Client thread/INFO] [IC2.Recipe]: Successfully loaded 25 out of 25 recipes for thermal centrifuge recipes
+[11:19:22] [Client thread/INFO] [Ecomod|Intermod]: Processing Intermod Commits
+[11:19:22] [Client thread/INFO] [Waila]: Receiving registration request from [ ecomod ] for method ecomod.common.intermod.waila.EMWailaHandler.callbackRegister
+[11:19:22] [Client thread/INFO] [Waila]: Receiving registration request from [ ImmersiveEngineering ] for method blusunrize.immersiveengineering.common.util.compat.waila.IEWailaDataProvider.callbackRegister
+[11:19:22] [Client thread/INFO] [FML]: Injecting itemstacks
+[11:19:22] [Client thread/INFO] [FML]: Itemstack injection complete
+[11:19:22] [Client thread/INFO] [Ecology Mod]: PostInitialization
+[11:19:22] [Client thread/INFO] [Ecomod|Intermod]: Adding to Buildcraft fuels
+[11:19:22] [Client thread/INFO] [Ecomod|Intermod]: Setting up IC2 integration
+[11:19:22] [Immersive Engineering Contributors Thread/INFO] [ImmersiveEngineering]: Attempting to download special revolvers from GitHub
+[11:19:22] [Client thread/INFO] [IC2.Uu]: Loading predefined UU world scan values, run /ic2 uu-world-scan <small|medium|large> to calibrate them for your world.
+[11:19:22] [Client thread/WARN] [IC2.Uu]: UU world-scan config: Can't find ItemStack for BuildCraft|Core:eternalSpring, ignoring the entry in line 88.
+[11:19:22] [Client thread/WARN] [IC2.Uu]: UU world-scan config: Can't find ItemStack for BuildCraft|Core:eternalSpring@1, ignoring the entry in line 109.
+[11:19:22] [Client thread/INFO] [IC2.General]: IC2 version 2.2.792 loaded.
+[11:19:22] [Client thread/INFO] [STDOUT]: [mcp.mobius.waila.gui.truetyper.TrueTypeFont:<init>:98]: TrueTypeFont loaded: java.awt.Font[family=Minecraftia,name=Minecraftia Regular,style=plain,size=14] - AntiAlias = true
+[11:19:23] [Client thread/WARN] [Waila]: [BC] Class not found. java.lang.ClassNotFoundException: buildcraft.factory.TileTank
+[11:19:23] [Client thread/WARN] [Waila]: [Thaumcraft] Class not found. java.lang.ClassNotFoundException: thaumcraft.common.Thaumcraft
+[11:19:23] [Client thread/INFO] [Waila]: [EnderStorage] EnderStorage mod not found.
+[11:19:23] [Client thread/INFO] [Waila]: [GraveStone] GraveStone mod not found.
+[11:19:23] [Client thread/INFO] [Waila]: [TwilightForestMod] TwilightForestMod mod not found.
+[11:19:23] [Client thread/WARN] [Waila]: [Thermal Expansion] Error while loading Energy hooks.java.lang.ClassNotFoundException: cofh.api.tileentity.IEnergyInfo
+[11:19:23] [Client thread/WARN] [Waila]: [Thermal Expansion] Error while loading Energy Cell hooks.java.lang.ClassNotFoundException: cofh.thermalexpansion.block.cell.TileCell
+[11:19:23] [Client thread/WARN] [Waila]: [Thermal Expansion] Error while loading Tank hooks.java.lang.ClassNotFoundException: cofh.thermalexpansion.block.tank.TileTank
+[11:19:23] [Client thread/WARN] [Waila]: [Thermal Expansion] Error while loading Tesseract hooks.java.lang.ClassNotFoundException: cofh.thermalexpansion.block.ender.TileTesseract
+[11:19:23] [Client thread/WARN] [Waila]: [Thermal Expansion] Error while loading ISecureTile hooks.java.lang.ClassNotFoundException: cofh.api.tileentity.ISecurable
+[11:19:23] [Client thread/WARN] [Waila]: [Thermal Expansion] Error while loading Tesseract hooks.java.lang.ClassNotFoundException: cofh.thermalexpansion.block.cache.TileCache
+[11:19:23] [Client thread/WARN] [Waila]: [Thermal Dynamics] Error while loading FluidDuct hooks.java.lang.ClassNotFoundException: cofh.thermaldynamics.ducts.fluid.TileFluidDuct
+[11:19:23] [Client thread/INFO] [Waila]: [Engineer Toolbox] Engineer Toolbox mod not found.
+[11:19:23] [Client thread/INFO] [Waila]: [ProjectRed] ProjectRed|Integration mod not found.
+[11:19:23] [Client thread/INFO] [Waila]: [ExtraUtilities] ExtraUtilities mod not found.
+[11:19:23] [Client thread/INFO] [Waila]: [OpenBlocks] OpenBlocks mod not found.
+[11:19:23] [Client thread/INFO] [Waila]: [Railcraft] Railcraft mod not found.
+[11:19:23] [Client thread/INFO] [Waila]: [PamHarvestCraft] PamHarvestCraft mod not found.
+[11:19:23] [Client thread/INFO] [Waila]: [MagicalCrops] MagicalCrops mod not found.
+[11:19:23] [Client thread/INFO] [Waila]: [Statues] Statues mod not found.
+[11:19:23] [Client thread/INFO] [Waila]: [Agriculture] Agriculture mod not found.
+[11:19:23] [Client thread/INFO] [Waila]: Trying to reflect ecomod.common.intermod.waila.EMWailaHandler callbackRegister
+[11:19:23] [Client thread/INFO] [Waila]: Success in registering ecomod
+[11:19:23] [Client thread/INFO] [Waila]: Trying to reflect blusunrize.immersiveengineering.common.util.compat.waila.IEWailaDataProvider callbackRegister
+[11:19:23] [Client thread/INFO] [Waila]: Success in registering ImmersiveEngineering
+[11:19:23] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 10 mods
+[11:19:23] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Ecology Mod, FMLFileResourcePack:Immersive Engineering, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:Waila, FMLFileResourcePack:Pollution Meter
+[11:19:24] [Client thread/INFO]: Created: 1024x1024 textures/blocks-atlas
+[11:19:24] [Client thread/INFO] [ImmersiveEngineering]: Stitching Revolver Textures!
+[11:19:24] [Client thread/INFO]: Created: 1024x1024 textures/revolvers-atlas
+[11:19:24] [Client thread/INFO]: Created: 1024x1024 textures/items-atlas
+[11:19:24] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[11:19:24] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[11:19:25] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[11:19:25] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[11:19:25] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[11:19:25] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[11:19:25] [Thread-15/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[11:19:25] [Thread-15/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[11:19:25] [Thread-15/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[11:19:25] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[11:19:25] [Sound Library Loader/INFO]: Sound engine started
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]: The following texture errors were found.
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]: ==================================================
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]:   DOMAIN minecraft
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]: --------------------------------------------------
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]:   domain minecraft is missing 4 textures
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]:     domain minecraft has 4 locations:
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]:       unknown resourcepack type net.minecraft.client.resources.DefaultResourcePack : Default
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]:       mod FML resources at C:\Users\sebyt\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]:       mod Forge resources at C:\Users\sebyt\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]:       mod IC2 resources at C:\Users\sebyt\.gradle\caches\modules-2\files-2.1\net.industrial-craft\industrialcraft-2\2.2.792\49ae8d22839051f46ea9ef7daf10da11610d9597\industrialcraft-2-2.2.792-dev.jar
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]: -------------------------
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]:     The missing resources for domain minecraft are:
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]:       textures/blocks/MISSING_ICON_BLOCK_166_null.png
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]:       textures/blocks/MISSING_ICON_BLOCK_168_null.png
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]:       textures/items/MISSING_ICON_ITEM_4098_ecomod.respirator.png
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]:       textures/blocks/MISSING_ICON_BLOCK_167_null.png
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]: -------------------------
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]:     No other errors exist for domain minecraft
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]: ==================================================
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]: ==================================================
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]:   DOMAIN immersiveengineering
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]: --------------------------------------------------
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]:   domain immersiveengineering is missing 3 textures
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]:     domain immersiveengineering has 1 location:
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]:       mod ImmersiveEngineering resources at C:\Users\sebyt\IdeaProjects\Pollution-Meter-Addon-for-Ecology-Mod\libs\ImmersiveEngineering-0.7.7-deobf.jar
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]: -------------------------
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]:     The missing resources for domain immersiveengineering are:
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]:       textures/revolvers/revolver_rose.png
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]:       textures/blocks/metal2_skycrateDispenser.png
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]:       textures/revolvers/revolver_tesla.png
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]: -------------------------
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]:     No other errors exist for domain immersiveengineering
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]: ==================================================
+[11:19:25] [Client thread/ERROR] [TEXTURE ERRORS]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[11:19:31] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[11:19:31] [Server thread/INFO]: Generating keypair
+[11:19:31] [Server thread/INFO] [FML]: Injecting existing block and item data into this server instance
+[11:19:31] [Server thread/INFO] [FML]: Applying holder lookups
+[11:19:31] [Server thread/INFO] [FML]: Holder lookups applied
+[11:19:31] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@5cdbb39f)
+[11:19:31] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@5cdbb39f)
+[11:19:31] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@5cdbb39f)
+[11:19:31] [Server thread/INFO] [Ecology Mod]: Creating PollutionManager for dimension 0
+[11:19:31] [Server thread/INFO] [Ecology Mod]: Loading pollution manager for dimension 0
+[11:19:31] [Server thread/INFO] [Ecology Mod]: PM has been loaded!
+[11:19:31] [Server thread/INFO]: Preparing start region for level 0
+[11:19:31] [WPT_0/INFO] [Ecology Mod]: Starting: WPT_0
+[11:19:31] [WPT_0/INFO] [Ecology Mod]: [WPT_0]Sleeping for 60 seconds
+[11:19:31] [Server thread/INFO] [ImmersiveEngineering]: WorldData loading
+[11:19:31] [Server thread/INFO] [ImmersiveEngineering]: WorldData retrieved
+[11:19:31] [Server thread/INFO] [ImmersiveEngineering]: Removed 0 old recipes
+[11:19:31] [Server thread/INFO] [ImmersiveEngineering]: Starting recipe profiler for Arc Recycling, using 8 Threads
+[11:19:31] [Server thread/INFO] [ImmersiveEngineering]: Couldn't fully analyze 1xitem.ecomod.respirator@0, missing knowledge for [1xitem.helmetCloth@0]
+[11:19:31] [Server thread/INFO] [ImmersiveEngineering]: Finished recipe profiler for Arc Recycling, took 28 milliseconds
+[11:19:32] [Server thread/INFO]: Changing view distance to 12, from 10
+[11:19:32] [Netty Client IO #0/INFO] [FML]: Server protocol version 2
+[11:19:32] [Netty IO #1/INFO] [FML]: Client protocol version 2
+[11:19:32] [Netty IO #1/INFO] [FML]: Client attempting to join with 10 mods : ecomod@1.7.10-1.5.0.0,NotEnoughItems@1.0.5.120,CodeChickenCore@1.0.7.47,Waila@1.5.10,FML@7.10.99.99,ImmersiveEngineering@0.7.7,Forge@10.13.4.1614,IC2@2.2.792,mcp@9.05,pm@1.0
+[11:19:32] [Netty IO #1/INFO] [FML]: Attempting connection with missing mods [] at CLIENT
+[11:19:32] [Netty Client IO #0/INFO] [FML]: Attempting connection with missing mods [] at SERVER
+[11:19:32] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[11:19:32] [Client thread/INFO] [FML]: [Client thread] Client side modded connection established
+[11:19:32] [Server thread/INFO]: Player421[local:E:6fbe16a2] logged in with entity id 180 at (182.06461710046625, 98.5359424850921, 95.3841934088223)
+[11:19:32] [Server thread/INFO]: Player421 joined the game
+[11:19:32] [Server thread/INFO] [Ecology Mod]: Serializing and sending Pollution Effects Config to the Player: Player421(17b67947-156d-3518-9500-f7e04df5e64d)
+[11:19:32] [Server thread/INFO] [Ecology Mod]: Serializing and sending TEPollutionConfig to the Player: Player421(17b67947-156d-3518-9500-f7e04df5e64d)
+[11:19:33] [Client thread/INFO] [Ecology Mod]: Receiving Pollution Effects Config from the server...
+[11:19:33] [Client thread/INFO] [Ecology Mod]: Pollution Effects Config has been received.
+[11:19:33] [Server thread/INFO] [Waila]: Player EntityPlayerMP['Player421'/180, l='New World', x=182.06, y=98.54, z=95.38] connected. Sending ping
+[11:19:36] [Client thread/INFO] [Ecomod|Intermod]: Initializing NEI plugin! EcologyMod|NEI
+[11:19:36] [Client thread/INFO] [STDOUT]: [ic2.neiIntegration.core.NEIIC2Config:loadConfig:37]: IC2 NEI Submodule initialized
+[11:19:36] [Client thread/INFO] [Waila]: Received server authentication msg. Remote sync will be activated
+[11:19:41] [Server thread/INFO]: Saving and pausing game...
+[11:19:41] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:19:41] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:19:41] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:19:42] [Client thread/INFO]: Stopping!
+[11:19:42] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[11:19:42] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[11:19:42] [Server thread/INFO] [Ecology Mod]: Server is stopping... Shutting down WorldProcessingThreads...
+[11:19:42] [Server thread/INFO] [Ecology Mod]: [WPT_0]Carefully shutting down...
+[11:19:42] [Server thread/INFO] [Ecology Mod]: Serializing and saving pollution manager for dimension 0
+[11:19:43] [Server thread/INFO] [Ecology Mod]: [WPT_0]Shut down.
+[11:19:43] [WPT_0/INFO] [Ecology Mod]: [WPT_0]Carefully shutting down...
+[11:19:43] [WPT_0/INFO] [Ecology Mod]: [WPT_0]Shut down.
+[11:19:43] [Server thread/INFO]: Stopping server
+[11:19:43] [Server thread/INFO]: Saving players
+[11:19:43] [Server thread/INFO]: Saving worlds
+[11:19:43] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:19:43] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:19:43] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:19:43] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[11:19:43] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[11:19:43] [Client Shutdown Thread/INFO]: Stopping server
+[11:19:43] [Client Shutdown Thread/INFO]: Saving players
+
+BUILD SUCCESSFUL
+
+Total time: 49.513 secs
