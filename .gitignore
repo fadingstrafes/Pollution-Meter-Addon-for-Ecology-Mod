@@ -3,6 +3,7 @@ gradle
 eclipse
 .idea
 libs
+libs
 #################
 ## Eclipse
 #################
