@@ -1,1 +1,2 @@
-# Pollution-Meter-Addon-for-Ecology-Mod
+# Pollution Meter Addon for Ecology Mod
+# Author: FadingStrafes
