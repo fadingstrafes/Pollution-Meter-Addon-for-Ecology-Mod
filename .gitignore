@@ -4,6 +4,7 @@ eclipse
 .idea
 libs/EcologyMod-1.7.10-1.5.0.0.jar
 libs/ImmersiveEngineering-0.7.7-deobf.jar
+gradlew.bat
 #################
 ## Eclipse
 #################
