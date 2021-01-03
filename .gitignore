@@ -1,8 +1,7 @@
-src/libs/EcologyMod-1.7.10-1.5.0.0.jar
-src/libs/ImmersiveEngineering-0.7.7-deobf.jar
-src/.idea
-src/build
-src/gradle
+libs
+.idea
+build
+gradle
 #################
 ## Eclipse
 #################
