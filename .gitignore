@@ -1,7 +1,8 @@
-libs
-.idea
 build
 gradle
+eclipse
+.idea
+libs
 #################
 ## Eclipse
 #################
