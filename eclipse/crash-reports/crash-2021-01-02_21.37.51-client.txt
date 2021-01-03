@@ -1,0 +1,108 @@
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 1/2/21 9:37 PM
+Description: Unexpected error
+
+java.lang.NullPointerException: Unexpected error
+	at com.fading.items.PollutionMeter.onItemRightClick(PollutionMeter.java:31)
+	at net.minecraft.item.ItemStack.useItemRightClick(ItemStack.java:164)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.sendUseItem(PlayerControllerMP.java:430)
+	at net.minecraft.client.Minecraft.func_147121_ag(Minecraft.java:1557)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:2044)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1039)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:962)
+	at net.minecraft.client.main.Main.main(Main.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at com.fading.items.PollutionMeter.onItemRightClick(PollutionMeter.java:31)
+	at net.minecraft.item.ItemStack.useItemRightClick(ItemStack.java:164)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.sendUseItem(PlayerControllerMP.java:430)
+	at net.minecraft.client.Minecraft.func_147121_ag(Minecraft.java:1557)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityClientPlayerMP['Player828'/185, l='MpServer', x=68.91, y=74.62, z=61.30]]
+	Chunk stats: MultiplayerChunkCache: 545, 545
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (228,64,256), Chunk: (at 4,4,0 in 14,16; contains blocks 224,0,256 to 239,255,271), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 30381 game time, 30381 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 70 total; [EntityPig['Pig'/1, l='MpServer', x=34.09, y=82.00, z=74.03], EntitySquid['Squid'/2, l='MpServer', x=44.50, y=57.13, z=84.50], EntityPig['Pig'/3, l='MpServer', x=41.91, y=83.00, z=105.13], EntityBat['Bat'/4, l='MpServer', x=42.36, y=27.17, z=120.50], EntityPig['Pig'/8, l='MpServer', x=59.87, y=94.00, z=72.70], EntityPig['Pig'/9, l='MpServer', x=48.47, y=91.00, z=75.78], EntitySquid['Squid'/10, l='MpServer', x=49.51, y=57.35, z=87.51], EntityBat['Bat'/11, l='MpServer', x=52.25, y=28.00, z=112.75], EntityBat['Bat'/12, l='MpServer', x=48.25, y=30.10, z=134.50], EntityPig['Pig'/13, l='MpServer', x=56.47, y=80.00, z=130.32], EntityPig['Pig'/19, l='MpServer', x=64.91, y=75.00, z=64.53], EntityPig['Pig'/20, l='MpServer', x=67.49, y=82.00, z=67.71], EntityBat['Bat'/21, l='MpServer', x=75.53, y=21.00, z=116.24], EntityPig['Pig'/22, l='MpServer', x=75.50, y=92.00, z=97.31], EntityPig['Pig'/23, l='MpServer', x=65.16, y=84.00, z=105.97], EntityPig['Pig'/24, l='MpServer', x=65.31, y=80.00, z=135.84], EntityBat['Bat'/30, l='MpServer', x=91.48, y=48.73, z=78.30], EntityPig['Pig'/31, l='MpServer', x=81.09, y=74.00, z=68.17], EntityBat['Bat'/32, l='MpServer', x=84.31, y=23.15, z=123.94], EntityBat['Bat'/45, l='MpServer', x=107.75, y=49.10, z=78.25], EntityPig['Pig'/46, l='MpServer', x=97.47, y=75.47, z=67.47], EntityBat['Bat'/47, l='MpServer', x=105.63, y=49.10, z=83.25], EntityPig['Pig'/186, l='MpServer', x=74.44, y=73.00, z=63.44], EntityClientPlayerMP['Player828'/185, l='MpServer', x=68.91, y=74.62, z=61.30], EntityPig['Pig'/188, l='MpServer', x=58.37, y=74.00, z=51.22], EntityPig['Pig'/189, l='MpServer', x=80.03, y=73.00, z=53.94], EntityPig['Pig'/61, l='MpServer', x=123.26, y=90.00, z=90.98], EntityBat['Bat'/190, l='MpServer', x=108.75, y=13.10, z=63.53], EntityChicken['Chicken'/62, l='MpServer', x=125.44, y=80.00, z=104.63], EntityPig['Pig'/191, l='MpServer', x=41.76, y=73.00, z=36.85], EntityChicken['Chicken'/63, l='MpServer', x=126.56, y=78.00, z=123.38], EntityPig['Pig'/192, l='MpServer', x=105.63, y=70.00, z=34.97], EntityBat['Bat'/64, l='MpServer', x=119.87, y=23.00, z=139.87], EntityPig['Pig'/193, l='MpServer', x=107.47, y=64.00, z=36.44], EntityPig['Pig'/194, l='MpServer', x=39.50, y=74.00, z=31.31], EntityBat['Bat'/195, l='MpServer', x=127.41, y=26.10, z=57.25], EntityPig['Pig'/67, l='MpServer', x=140.84, y=81.00, z=90.19], EntityBat['Bat'/196, l='MpServer', x=116.63, y=58.83, z=59.51], EntityPig['Pig'/68, l='MpServer', x=135.31, y=79.00, z=107.50], EntityPig['Pig'/197, l='MpServer', x=23.66, y=75.00, z=32.53], EntityPig['Pig'/69, l='MpServer', x=135.73, y=78.00, z=112.47], EntityPig['Pig'/198, l='MpServer', x=21.06, y=76.00, z=37.13], EntityPig['Pig'/199, l='MpServer', x=59.47, y=63.00, z=4.94], EntityPig['Pig'/200, l='MpServer', x=121.66, y=63.00, z=40.46], EntityPig['Pig'/201, l='MpServer', x=29.28, y=74.00, z=20.47], EntityPig['Pig'/202, l='MpServer', x=125.91, y=63.00, z=17.97], EntityPig['Pig'/203, l='MpServer', x=71.88, y=65.00, z=-11.09], EntityBat['Bat'/204, l='MpServer', x=136.41, y=27.57, z=57.44], EntityBat['Bat'/205, l='MpServer', x=135.40, y=25.71, z=57.67], EntityBat['Bat'/206, l='MpServer', x=141.57, y=25.93, z=61.70], EntityPig['Pig'/207, l='MpServer', x=130.20, y=66.00, z=56.55], EntityItem['item.item.dyePowder.black'/208, l='MpServer', x=129.78, y=55.13, z=47.13], EntityPig['Pig'/209, l='MpServer', x=131.75, y=69.00, z=42.44], EntityPig['Pig'/210, l='MpServer', x=140.31, y=67.00, z=42.50], EntityPig['Pig'/211, l='MpServer', x=18.69, y=69.00, z=9.50], EntityPig['Pig'/212, l='MpServer', x=114.03, y=70.00, z=15.50], EntityPig['Pig'/213, l='MpServer', x=45.18, y=64.00, z=-10.59], EntityPig['Pig'/214, l='MpServer', x=37.22, y=70.00, z=-3.53], EntityPig['Pig'/215, l='MpServer', x=25.47, y=79.00, z=118.78], EntityPig['Pig'/216, l='MpServer', x=-0.38, y=78.00, z=48.78], EntityPig['Pig'/217, l='MpServer', x=3.50, y=69.00, z=2.69], EntityPig['Pig'/218, l='MpServer', x=-7.97, y=78.00, z=73.13], EntityPig['Pig'/219, l='MpServer', x=-1.34, y=76.00, z=35.09], EntityPig['Pig'/220, l='MpServer', x=148.84, y=64.00, z=42.78], EntityPig['Pig'/221, l='MpServer', x=-1.91, y=75.00, z=27.22], EntityPig['Pig'/222, l='MpServer', x=-4.03, y=75.00, z=29.94], EntityPig['Pig'/226, l='MpServer', x=3.41, y=63.00, z=-11.63], EntityPig['Pig'/227, l='MpServer', x=2.22, y=64.00, z=-7.41], EntityPig['Pig'/246, l='MpServer', x=-0.06, y=67.00, z=-5.59], EntityPig['Pig'/247, l='MpServer', x=-1.53, y=69.00, z=-3.47]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:415)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2566)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:991)
+	at net.minecraft.client.main.Main.main(Main.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_275, Amazon.com Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Amazon.com Inc.
+	Memory: 254237672 bytes (242 MB) / 1018691584 bytes (971 MB) up to 1873805312 bytes (1787 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 10 mods loaded, 10 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{7.10.99.99} [Forge Mod Loader] (forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHIJAAAA	Forge{10.13.4.1614} [Minecraft Forge] (forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHIJAAAA	NotEnoughItems{1.0.5.120} [Not Enough Items] (NotEnoughItems-1.7.10-1.0.5.120-dev.jar) 
+	UCHIJAAAA	CodeChickenCore{1.0.7.47} [CodeChicken Core] (minecraft.jar) 
+	UCHIJAAAA	ImmersiveEngineering{0.7.7} [Immersive Engineering] (ImmersiveEngineering-0.7.7-deobf.jar) 
+	UCHIJAAAA	IC2{2.2.792} [IndustrialCraft 2] (industrialcraft-2-2.2.792-dev.jar) 
+	UCHIJAAAA	Waila{1.5.10} [Waila] (Waila-1.5.10_1.7.10.jar) 
+	UCHIJAAAA	ecomod{1.7.10-1.5.0.100} [Ecology Mod] (pm-1.0.jar) 
+	UCHIJAAAA	pm{1.0} [Pollution Meter] (pm-1.0.jar) 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 460.89' Renderer: 'GeForce GTX 1050/PCIe/SSE2'
+	[EcologyMod|PollutionHandler] Active WorldProcessingThreads: 
+	0: Working: false |Last Profiler section: [UNKNOWN]| Interrupted:false
+
+	Launched Version: 1.7.10
+	LWJGL: 2.9.1
+	OpenGL: GeForce GTX 1050/PCIe/SSE2 GL version 4.6.0 NVIDIA 460.89, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Anisotropic filtering is supported and maximum anisotropy is 16.
+Shaders are available because OpenGL 2.1 is supported.
+
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: []
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Anisotropic Filtering: Off (1)
